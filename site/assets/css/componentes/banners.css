@@ -1,0 +1,25 @@
+.banner{
+    background-image: url("../../img/banner.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.banner .container{
+    color: #fff;
+    padding: 4rem 0;
+    text-align: center;
+}
+.banner .container h2{
+    font-size: 2vw;
+}
+.banner .container p{
+    font-size: 1.2vw;
+}
+@media(min-width: 768px){
+    .banner .container{
+        padding: 29rem 0;
+    }
+    .banner .container h2{
+        font-size: 3vw;
+    }
+}
